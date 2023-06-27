@@ -1,0 +1,61 @@
+{
+  "name": "superteam-reputation",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=18",
+    "pnpm": "^8.0.0",
+    "yarn": "forbidden, use pnpm",
+    "npm": "forbidden, use pnpm"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.5",
+    "@chakra-ui/anatomy": "^2.1.0",
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/inter": "^4.5.14",
+    "@next/font": "^13.0.7",
+    "@notionhq/client": "^2.2.2",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@types/react-icons": "^3.0.0",
+    "airtable": "^0.11.6",
+    "apexcharts": "^3.36.3",
+    "axios": "^1.2.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.7",
+    "framer-motion": "^7.6.6",
+    "google": "link:@next/font/google",
+    "next": "13.0.7",
+    "next-superjson-plugin": "^0.4.9",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-swipeable": "^7.0.0",
+    "scroll-into-view": "^1.16.2",
+    "superjson": "^1.12.0",
+    "swr": "^1.3.0",
+    "typescript": "4.8.4",
+    "zustand": "^4.1.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "husky": "^8.0.2",
+    "only-pnpm": "^1.0.5",
+    "prettier": "^2.7.1",
+    "simple-zustand-devtools": "^1.1.0"
+  },
+  "packageManager": "pnpm@8.1.0"
+}
